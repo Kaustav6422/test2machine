@@ -17,6 +17,8 @@ Add the ROS package in your own catkin_ws/src both your PC and BB Black.
 
 Modify the IP address and username in *.launch* and *.sh*.
 
+My PC use 192.168.7.15 as monitor, my BB Black use 192.168.7.2 as robot.
+
 Then catkin_make the package.
 
 # Run the ROS nodes

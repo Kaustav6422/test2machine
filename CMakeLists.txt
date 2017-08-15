@@ -13,27 +13,8 @@ find_package(catkin REQUIRED COMPONENTS
 ## catkin specific configuration ##
 ###################################
 catkin_package(
-#  INCLUDE_DIRS include
-#  LIBRARIES robot863
-#  CATKIN_DEPENDS roscpp rospy
-#  DEPENDS system_lib
+   INCLUDE_DIRS include
+   LIBRARIES test2machine 
+   CATKIN_DEPENDS roscpp rospy usb_cam image_view
+   DEPENDS system_lib
 )
-
-###########
-## Build ##
-###########
-
-# include_directories(include)
-include_directories(include 
-  ${catkin_INCLUDE_DIRS}
-)
-
-## Declare a C++ library
-# add_library(robot863
-#   src/${PROJECT_NAME}/robot863.cpp
-# )
-
-## Add cmake target dependencies of the library
-# add_dependencies(robot863 ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-
-## Declare a C++ executable
