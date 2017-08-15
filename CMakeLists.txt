@@ -5,14 +5,9 @@ project(test2machine)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
-  std_msgs
-  geometry_msgs
 )
 
 ## System dependencies are found with CMake's conventions
-find_package(Boost REQUIRED COMPONENTS system thread date_time)
-find_package(Threads REQUIRED)
-
 
 ###################################
 ## catkin specific configuration ##
